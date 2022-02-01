@@ -1,0 +1,26 @@
+{
+  "name": "220202-codemirror",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@codemirror/basic-setup": "^0.19.1",
+    "@codemirror/commands": "^0.19.8",
+    "@codemirror/lang-html": "^0.19.4",
+    "@codemirror/lang-markdown": "^0.19.5",
+    "@codemirror/state": "^0.19.6",
+    "@codemirror/theme-one-dark": "^0.19.1",
+    "@codemirror/view": "^0.19.40",
+    "@emmetio/codemirror6-plugin": "0.0.6",
+    "@replit/codemirror-indentation-markers": "^0.19.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.7",
+    "vite": "^2.7.2"
+  }
+}
