@@ -5,10 +5,10 @@ Some experiments with reactjs.
 To create a new experimental project:
 
 ```sh
-npm init vite@latest 220202-some-description --template react
-cd 220202-codemirror
+npm init vite@latest YYMMDD-some-description --template react
+cd YYMMDD-some-description
 npm install 
 npm run dev
 ```
 
-In `main.jsx` we probably want to remove the `<React.StrictMode>` wrapper, to better understand the code flow when debugging (with `<React.StrictMode>` some function will be double-invoked, see https://reactjs.org/docs/strict-mode.html)
+The template used by vite will have a `main.jsx` in which the `<React.StrictMode>` wrapper is used. We probably want to remove it to better understand the code flow when debugging (`<React.StrictMode>` will make some functions execute twice, see https://reactjs.org/docs/strict-mode.html)
